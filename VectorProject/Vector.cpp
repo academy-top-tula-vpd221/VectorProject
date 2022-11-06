@@ -50,7 +50,7 @@ void Vector::PushBack(int value)
 		arrayNew[i] = array[i];
 	arrayNew[size++] = value;
 
-	delete array;
+	delete[] array;
 	array = arrayNew;
 }
 
@@ -65,7 +65,7 @@ int Vector::PopBack()
 		for(int i = 0; i < size; i++)
 			arrayNew[i] = array[i];
 
-		delete array;
+		delete[] array;
 		array = arrayNew;
 	}
 
