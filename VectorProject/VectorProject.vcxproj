@@ -131,6 +131,7 @@
     <ClCompile Include="User.cpp" />
     <ClCompile Include="Vector.cpp" />
     <ClCompile Include="VectorProject.cpp" />
+    <ClCompile Include="Work.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h" />
